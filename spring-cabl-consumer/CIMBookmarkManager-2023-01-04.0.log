@@ -1,0 +1,4 @@
+2023-01-04 10:49:47.642  INFO 8532 --- [main] o.c.r.SpringCablConsumerApplicationTests : Starting SpringCablConsumerApplicationTests using Java 14.0.1 on FFZ3CZ-L1 with PID 8532 (started by FFZ3CZ in C:\Users\ffz3cz\eclipse-workspace\spring-cabl-consumer)
+2023-01-04 10:49:47.668 DEBUG 8532 --- [main] o.c.r.SpringCablConsumerApplicationTests : Running with Spring Boot v2.7.5, Spring v5.3.23
+2023-01-04 10:49:47.670  INFO 8532 --- [main] o.c.r.SpringCablConsumerApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-01-04 10:49:57.191  INFO 8532 --- [main] o.c.r.SpringCablConsumerApplicationTests : Started SpringCablConsumerApplicationTests in 10.756 seconds (JVM running for 12.854)

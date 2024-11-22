@@ -1,0 +1,94 @@
+2022-12-20 08:55:44.840  INFO 23500 --- [main] .c.r.SpringCabmRestWebserviceApplication : Starting SpringCabmRestWebserviceApplication using Java 14.0.1 on FFZ3CZ-L1 with PID 23500 (C:\Users\ffz3cz\eclipse-workspace\spring-cabm-webservice\target\classes started by FFZ3CZ in C:\Users\ffz3cz\eclipse-workspace\spring-cabm-webservice)
+2022-12-20 08:55:44.845  INFO 23500 --- [main] .c.r.SpringCabmRestWebserviceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-20 08:55:46.582  INFO 23500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-20 08:55:46.763  INFO 23500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 4 JPA repository interfaces.
+2022-12-20 08:55:48.955  INFO 23500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2022-12-20 08:55:48.983  INFO 23500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-20 08:55:48.984  INFO 23500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-20 08:55:49.367  INFO 23500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-20 08:55:49.368  INFO 23500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4357 ms
+2022-12-20 08:55:49.944  INFO 23500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-20 08:55:49.955  WARN 23500 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-12-20 08:55:51.862  INFO 23500 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2022-12-20 08:55:52.045  INFO 23500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-20 08:55:52.179  INFO 23500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-20 08:55:52.291  INFO 23500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-20 08:55:52.758  INFO 23500 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-20 08:55:53.474  INFO 23500 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-20 08:55:55.446  INFO 23500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-20 08:55:55.497  INFO 23500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-20 08:55:56.866  WARN 23500 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-20 08:55:57.830  INFO 23500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2022-12-20 08:55:57.849  INFO 23500 --- [main] .c.r.SpringCabmRestWebserviceApplication : Started SpringCabmRestWebserviceApplication in 14.617 seconds (JVM running for 15.904)
+2022-12-20 08:56:17.795  INFO 23500 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-20 08:56:17.796  INFO 23500 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-20 08:56:17.799  INFO 23500 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-20 08:57:56.160  INFO 14672 --- [main] .c.r.SpringCabmRestWebserviceApplication : Starting SpringCabmRestWebserviceApplication using Java 14.0.1 on FFZ3CZ-L1 with PID 14672 (C:\Users\ffz3cz\eclipse-workspace\spring-cabm-webservice\target\classes started by FFZ3CZ in C:\Users\ffz3cz\eclipse-workspace\spring-cabm-webservice)
+2022-12-20 08:57:56.165  INFO 14672 --- [main] .c.r.SpringCabmRestWebserviceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-20 08:57:57.513  INFO 14672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-20 08:57:57.631  INFO 14672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 4 JPA repository interfaces.
+2022-12-20 08:57:59.795  INFO 14672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2022-12-20 08:57:59.822  INFO 14672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-20 08:57:59.823  INFO 14672 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-20 08:58:00.334  INFO 14672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-20 08:58:00.335  INFO 14672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4024 ms
+2022-12-20 08:58:00.790  INFO 14672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-20 08:58:00.797  WARN 14672 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-12-20 08:58:02.847  INFO 14672 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2022-12-20 08:58:03.065  INFO 14672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-20 08:58:03.334  INFO 14672 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-20 08:58:03.534  INFO 14672 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-20 08:58:04.147  INFO 14672 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-20 08:58:04.734  INFO 14672 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-20 08:58:06.712  INFO 14672 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-20 08:58:06.786  INFO 14672 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-20 08:58:07.927  WARN 14672 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-20 08:58:08.721  INFO 14672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2022-12-20 08:58:08.735  INFO 14672 --- [main] .c.r.SpringCabmRestWebserviceApplication : Started SpringCabmRestWebserviceApplication in 13.446 seconds (JVM running for 14.769)
+2022-12-20 08:59:59.325  INFO 4608 --- [main] .c.r.SpringCabmRestWebserviceApplication : Starting SpringCabmRestWebserviceApplication using Java 14.0.1 on FFZ3CZ-L1 with PID 4608 (C:\Users\ffz3cz\eclipse-workspace\spring-cabm-webservice\target\classes started by FFZ3CZ in C:\Users\ffz3cz\eclipse-workspace\spring-cabm-webservice)
+2022-12-20 08:59:59.331  INFO 4608 --- [main] .c.r.SpringCabmRestWebserviceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-20 09:00:01.084  INFO 4608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-20 09:00:01.220  INFO 4608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113 ms. Found 4 JPA repository interfaces.
+2022-12-20 09:00:03.023  INFO 4608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2022-12-20 09:00:03.056  INFO 4608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-20 09:00:03.057  INFO 4608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-20 09:00:03.383  INFO 4608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-20 09:00:03.383  INFO 4608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3838 ms
+2022-12-20 09:00:03.832  INFO 4608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-20 09:00:03.839  WARN 4608 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-12-20 09:00:06.043  INFO 4608 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2022-12-20 09:00:06.230  INFO 4608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-20 09:00:06.388  INFO 4608 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-20 09:00:06.553  INFO 4608 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-20 09:00:06.963  INFO 4608 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-20 09:00:07.460  INFO 4608 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-20 09:00:09.104  INFO 4608 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-20 09:00:09.137  INFO 4608 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-20 09:00:10.047  WARN 4608 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-20 09:00:10.755  INFO 4608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2022-12-20 09:00:10.771  INFO 4608 --- [main] .c.r.SpringCabmRestWebserviceApplication : Started SpringCabmRestWebserviceApplication in 12.421 seconds (JVM running for 13.27)
+2022-12-20 09:00:56.379  INFO 4608 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-20 09:00:56.380  INFO 4608 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-20 09:00:56.382  INFO 4608 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-20 09:09:04.661  INFO 20944 --- [main] .c.r.SpringCabmRestWebserviceApplication : Starting SpringCabmRestWebserviceApplication using Java 14.0.1 on FFZ3CZ-L1 with PID 20944 (C:\Users\ffz3cz\eclipse-workspace\spring-cabm-webservice\target\classes started by FFZ3CZ in C:\Users\ffz3cz\eclipse-workspace\spring-cabm-webservice)
+2022-12-20 09:09:04.666  INFO 20944 --- [main] .c.r.SpringCabmRestWebserviceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-12-20 09:09:06.188  INFO 20944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-20 09:09:06.342  INFO 20944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 4 JPA repository interfaces.
+2022-12-20 09:09:09.269  INFO 20944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2022-12-20 09:09:09.298  INFO 20944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-20 09:09:09.299  INFO 20944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-20 09:09:09.651  INFO 20944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-20 09:09:09.651  INFO 20944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4838 ms
+2022-12-20 09:09:10.131  INFO 20944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-20 09:09:10.143  WARN 20944 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2022-12-20 09:09:12.216  INFO 20944 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class oracle.jdbc.driver.T4CConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+2022-12-20 09:09:12.391  INFO 20944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-20 09:09:12.526  INFO 20944 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-20 09:09:12.635  INFO 20944 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-20 09:09:13.090  INFO 20944 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-20 09:09:13.863  INFO 20944 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-20 09:09:16.249  INFO 20944 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-20 09:09:16.334  INFO 20944 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-20 09:09:17.727  WARN 20944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-20 09:09:18.657  INFO 20944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2022-12-20 09:09:18.678  INFO 20944 --- [main] .c.r.SpringCabmRestWebserviceApplication : Started SpringCabmRestWebserviceApplication in 14.911 seconds (JVM running for 15.959)
